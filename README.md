@@ -1,40 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Interactive Map Application with PMTiles and react-map-gl
 
-## Getting Started
+This project is an interactive map application that uniquely combines PMTiles and react-map-gl to create a powerful and efficient mapping solution.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This Next.js web application showcases the integration of PMTiles protocol for efficient tile data loading with react-map-gl for rendering interactive maps. It leverages the latest web technologies to provide a smooth and responsive mapping experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Next.js: React-based framework for server-side rendering and routing
+- TypeScript: For type-safe code
+- react-map-gl: React wrapper for MapLibre GL JS
+- PMTiles: Protocol for efficient tile data loading
+- Tailwind CSS: Utility-first CSS framework for styling
+- ESLint: Code quality and style consistency
+- Biome: Fast code formatting and linting
+- Bun: JavaScript runtime and package manager
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Setting up the Development Environment
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone the repository
+2. Navigate to the project root directory
+3. Install dependencies:
+   ```
+   bun install
+   ```
+4. Start the development server:
+   ```
+   bun dev
+   ```
+5. Open the application in your browser at `http://localhost:3000`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Available Scripts
 
-## Learn More
+- `bun run build`: Creates a production build.
+- `bun run start`: Starts the application in production mode.
+- `bun run lint`: Runs ESLint to check code quality.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is open source and available under the [MIT License](LICENSE).
