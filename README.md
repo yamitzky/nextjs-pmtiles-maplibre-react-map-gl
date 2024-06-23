@@ -2,6 +2,8 @@
 
 This project is an interactive map application that uniquely combines PMTiles and react-map-gl to create a powerful and efficient mapping solution.
 
+Demo: https://pmtiles.yamitzky.dev/
+
 ## Project Overview
 
 This Next.js web application showcases the integration of PMTiles protocol for efficient tile data loading with react-map-gl for rendering interactive maps. It leverages the latest web technologies to provide a smooth and responsive mapping experience.
